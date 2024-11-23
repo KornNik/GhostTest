@@ -1,0 +1,1027 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32621 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/GitPrograms/GhostTest/GhostTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51609
+Successfully changed project path to: D:/Work/GitPrograms/GhostTest/GhostTest
+D:/Work/GitPrograms/GhostTest/GhostTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21152] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 3088794277 [EditorId] 3088794277 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8F0045J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21152] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 3088794277 [EditorId] 3088794277 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8F0045J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 20.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/GitPrograms/GhostTest/GhostTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1962 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034365 seconds.
+- Loaded All Assemblies, in  0.908 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 629 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.404 seconds
+Domain Reload Profiling: 2306ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (184ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (873ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.491 seconds
+Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.755 seconds
+Domain Reload Profiling: 3239ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (979ms)
+		LoadAssemblies (695ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (475ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (339ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1262ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (877ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (352.1 KB). Loaded Objects now: 5885.
+Memory consumption went from 221.5 MB to 221.2 MB.
+Total: 6.814400 ms (FindLiveObjects: 0.912000 ms CreateObjectMapping: 0.304200 ms MarkObjects: 5.299300 ms  DeleteObjects: 0.297000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2334.934722 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.004420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.258 seconds
+Refreshing native plugins compatible for Editor in 8.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.017 seconds
+Domain Reload Profiling: 4267ms
+	BeginReloadAssembly (389ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (810ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (877ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (420.1 KB). Loaded Objects now: 6063.
+Memory consumption went from 198.3 MB to 197.9 MB.
+Total: 6.415400 ms (FindLiveObjects: 0.886000 ms CreateObjectMapping: 0.318100 ms MarkObjects: 4.967500 ms  DeleteObjects: 0.242400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.195 seconds
+Refreshing native plugins compatible for Editor in 8.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.902 seconds
+Domain Reload Profiling: 4087ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (760ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.5 MB). Loaded Objects now: 6088.
+Memory consumption went from 201.1 MB to 200.6 MB.
+Total: 7.352600 ms (FindLiveObjects: 0.851800 ms CreateObjectMapping: 0.305800 ms MarkObjects: 4.700300 ms  DeleteObjects: 0.634400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216.911692 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4f1039aa19c65aa4ba3c0db7c08a4490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4f1039aa19c65aa4ba3c0db7c08a4490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596bcb7d1a44c45341d39ec431f9e2f3') in 0.004492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.888841 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(f1e4aa0b432dcd441b72f316d96c3943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(f1e4aa0b432dcd441b72f316d96c3943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc14cc9321c453f79bac237e1cc2b74') in 0.000863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.600292 seconds.
+  path: Assets/Scripts/UI/ButtonExtender.cs
+  artifactKey: Guid(a532bfaefd3b83849974924ef4e3e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ButtonExtender.cs using Guid(a532bfaefd3b83849974924ef4e3e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baf511984e071dbadb5475dde01f58d') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 208.219672 seconds.
+  path: Assets/Ash Assets
+  artifactKey: Guid(24ed6b721c9054f47994276cee160028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets using Guid(24ed6b721c9054f47994276cee160028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c610aea140cb256ec0b4b2fb8cfd52') in 0.001255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.699784 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics
+  artifactKey: Guid(cfdfed5ae12c4c747b009b8f5cfc818a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics using Guid(cfdfed5ae12c4c747b009b8f5cfc818a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6117a4872bbf9022eb992aaadba07d52') in 0.000773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.251758 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Scenes
+  artifactKey: Guid(750d2842d035e884fa336e7482eb2437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Scenes using Guid(750d2842d035e884fa336e7482eb2437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b1fb923625fe98d723a17934e831fd') in 0.000942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.198331 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Scenes/City Map.unity
+  artifactKey: Guid(082943e73386c4c498509815f50d41ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Scenes/City Map.unity using Guid(082943e73386c4c498509815f50d41ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144f274803935a1c7808a2f1f869bb3') in 0.000922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.147589 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c31fc15346c3cef7016d75025e2247') in 0.000941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.127 seconds
+Refreshing native plugins compatible for Editor in 7.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.794 seconds
+Domain Reload Profiling: 3913ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (717ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (898ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 7.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.5 MB). Loaded Objects now: 6105.
+Memory consumption went from 203.2 MB to 202.7 MB.
+Total: 6.534000 ms (FindLiveObjects: 1.029700 ms CreateObjectMapping: 0.335500 ms MarkObjects: 4.823000 ms  DeleteObjects: 0.344000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.113 seconds
+Refreshing native plugins compatible for Editor in 11.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.726 seconds
+Domain Reload Profiling: 3831ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (705ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (880ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 11.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.5 MB). Loaded Objects now: 6121.
+Memory consumption went from 205.1 MB to 204.6 MB.
+Total: 6.516300 ms (FindLiveObjects: 0.967900 ms CreateObjectMapping: 0.362800 ms MarkObjects: 4.812100 ms  DeleteObjects: 0.371700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.136 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.861 seconds
+Domain Reload Profiling: 3988ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (634ms)
+		LoadAssemblies (712ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (889ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Script is not up to date after domain reload: guid(927032885ee24984da7e06c443578b95) path("Assets/Scripts/Controllers/Loaders/LevelLoader.cs") state(2)
+Refreshing native plugins compatible for Editor in 7.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.5 MB). Loaded Objects now: 6137.
+Memory consumption went from 207.0 MB to 206.5 MB.
+Total: 6.616900 ms (FindLiveObjects: 0.952200 ms CreateObjectMapping: 0.359300 ms MarkObjects: 4.936200 ms  DeleteObjects: 0.367600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.097 seconds
+Refreshing native plugins compatible for Editor in 8.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.762 seconds
+Domain Reload Profiling: 3851ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (884ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 7.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5436 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.5 MB). Loaded Objects now: 6154.
+Memory consumption went from 209.0 MB to 208.5 MB.
+Total: 6.288300 ms (FindLiveObjects: 0.866100 ms CreateObjectMapping: 0.308900 ms MarkObjects: 4.773300 ms  DeleteObjects: 0.338500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328.107504 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs
+  artifactKey: Guid(d02a9d7551d594f4495fd0bdd8e4ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs using Guid(d02a9d7551d594f4495fd0bdd8e4ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0e1ee822b2b07bf02c3d69c75b3f49') in 0.018601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/WheelSkid.prefab
+  artifactKey: Guid(af3816ee804421147aa3d559bed73abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/WheelSkid.prefab using Guid(af3816ee804421147aa3d559bed73abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f02b7e64113bd6118ace54cc30af58f') in 0.946610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 115.039080 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets
+  artifactKey: Guid(990474d2e4aa3164bbd2cc750e083c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets using Guid(990474d2e4aa3164bbd2cc750e083c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4217b76cbde42e1160a07d131132a9') in 0.001360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021922 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Pickup Prefab.prefab
+  artifactKey: Guid(e083b9c6bca91b14bab710d786f41c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Pickup Prefab.prefab using Guid(e083b9c6bca91b14bab710d786f41c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50375ec6585fd11a299874c118b77504') in 0.103867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Sports Prefab.prefab
+  artifactKey: Guid(87af1d4c660c09249b2a3621aeab020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Sports Prefab.prefab using Guid(87af1d4c660c09249b2a3621aeab020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e4dc2400e7d267937016f2dee75e91') in 0.115000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 95.885436 seconds.
+  path: Assets/ARCADE - FREE Racing Car
+  artifactKey: Guid(24a15fe4a31cc134da0450a3f6eb5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car using Guid(24a15fe4a31cc134da0450a3f6eb5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c152a2222da9e3cae96af72cb4b8ac0') in 0.001191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.745199 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)
+  artifactKey: Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only) using Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4588413c67bc4614170f641588a541d1') in 0.001067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014158 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab
+  artifactKey: Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab using Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0d18a2ee610b3fb4bf3e319cf854a') in 0.041777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab
+  artifactKey: Guid(f430073c636116b4b9c0f5e6ddcde097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab using Guid(f430073c636116b4b9c0f5e6ddcde097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5cc0e94a06fadb9b1eab594b5fa903') in 0.020520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.446 seconds
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.307 seconds
+Domain Reload Profiling: 3749ms
+	BeginReloadAssembly (448ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (62ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (796ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (897ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 7.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3606 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 831 unused Assets / (6.5 MB). Loaded Objects now: 5415.
+Memory consumption went from 177.3 MB to 170.8 MB.
+Total: 9.455800 ms (FindLiveObjects: 0.932300 ms CreateObjectMapping: 0.357900 ms MarkObjects: 4.753600 ms  DeleteObjects: 3.409900 ms)
+
+Prepare: number of updated asset objects reloaded= 77
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (198.0 KB). Loaded Objects now: 5338.
+Memory consumption went from 108.1 MB to 107.9 MB.
+Total: 6.862800 ms (FindLiveObjects: 0.919600 ms CreateObjectMapping: 0.380600 ms MarkObjects: 5.325600 ms  DeleteObjects: 0.235300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.854052 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab
+  artifactKey: Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab using Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533f817456e2ddb9f4c5a91a7a827750') in 0.828156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab
+  artifactKey: Guid(98c57f100a7d7684dba02b8725bbc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab using Guid(98c57f100a7d7684dba02b8725bbc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972dc6630343ac2f1c284819113c171a') in 0.024382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 251.056952 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/Formula 1.fbx
+  artifactKey: Guid(454a0192b630fbd47805204565c08d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/Formula 1.fbx using Guid(454a0192b630fbd47805204565c08d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b29003785dd10c2acc44670d8baaab') in 1.119915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/Bus.fbx
+  artifactKey: Guid(53059e54c109ac14eb5ef38f6e877def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/Bus.fbx using Guid(53059e54c109ac14eb5ef38f6e877def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6367f2ed30df8ba8b9685180a947aba3') in 0.389575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.015442 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ground ramp.fbx
+  artifactKey: Guid(a40ae452606edd047abc23712d9ef5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ground ramp.fbx using Guid(a40ae452606edd047abc23712d9ef5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0422c52a60fdf948b7f763df300e95cd') in 0.112584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.009813 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp.fbx
+  artifactKey: Guid(4587b5e9e0e4be144be37ff33200ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp.fbx using Guid(4587b5e9e0e4be144be37ff33200ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c823ddda2d05b5cdcb45e51aa995d6') in 0.106308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001262 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_5et_roof_col_04.obj
+  artifactKey: Guid(8fc3a33f7a1c4604fbd6ac600c46d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_5et_roof_col_04.obj using Guid(8fc3a33f7a1c4604fbd6ac600c46d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e291716853481607e0022e718a125ab') in 0.051045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings/rus_build_5et_06.obj
+  artifactKey: Guid(fd6d00b876e28334aa3da121ee9394e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings/rus_build_5et_06.obj using Guid(fd6d00b876e28334aa3da121ee9394e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888cda5bfd78017139db64c0d57cee8d') in 0.068326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_4et_roof_col.obj
+  artifactKey: Guid(c4ecc03c96be1ff4f9b1103a902937cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_4et_roof_col.obj using Guid(c4ecc03c96be1ff4f9b1103a902937cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca31b9bd5bb2384810ba68e258017cbd') in 0.050392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_5et_roof_col.obj
+  artifactKey: Guid(f2f0e91a3227f8f429f3f97f054d00c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings_col/rus_build_5et_roof_col.obj using Guid(f2f0e91a3227f8f429f3f97f054d00c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c5c97f3f357cfb069e137395d6f64') in 0.091886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings/rus_build_5et_04.obj
+  artifactKey: Guid(ff809a1f37e47514d8442e159d7f97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/buildings/rus_build_5et_04.obj using Guid(ff809a1f37e47514d8442e159d7f97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331da56ddeb5891683405e3edefc73c7') in 0.040647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/T_Road.fbx
+  artifactKey: Guid(f306f983609a09c4aa2a2a1a3cef2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/T_Road.fbx using Guid(f306f983609a09c4aa2a2a1a3cef2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbc6fd2d62d674cf641456c6491ab4a') in 0.027986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_05.obj
+  artifactKey: Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_05.obj using Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b18cbf083bd6edffc8532fd3b01593') in 0.046065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/t road.fbx
+  artifactKey: Guid(1b84cf06d22c5684cb18098811986b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/t road.fbx using Guid(1b84cf06d22c5684cb18098811986b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b1119cde76bdb9d321a9e5c2447a70') in 0.055741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Pickup.fbx
+  artifactKey: Guid(b0b3c568befe2f94ba482e5ba6fc1b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Pickup.fbx using Guid(b0b3c568befe2f94ba482e5ba6fc1b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd48c1fc3480d17b3c948653d8796c') in 0.178131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Sedan.fbx
+  artifactKey: Guid(835a3e773df7bc54ca14a54c2b1fe6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Sedan.fbx using Guid(835a3e773df7bc54ca14a54c2b1fe6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3423d40d6198e4e5e13d2cc583e1b5c4') in 0.162458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/ground.fbx
+  artifactKey: Guid(228db0149dd90ff48bd1d43492a92520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/ground.fbx using Guid(228db0149dd90ff48bd1d43492a92520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dd46a6ee97e5d44f869a2e6139e18c') in 0.035630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_02.obj
+  artifactKey: Guid(33c75c61ddd76a5488ebb690150880fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_02.obj using Guid(33c75c61ddd76a5488ebb690150880fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6fb6e544bcc751e5087b47b9dc54cc') in 0.038226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Road.fbx
+  artifactKey: Guid(ab2e556b62273434dad486c1e0a4ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Road.fbx using Guid(ab2e556b62273434dad486c1e0a4ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7606d3527da379b1364d9ba03fbf5077') in 0.018097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Cars/car.fbx
+  artifactKey: Guid(dc5b9b487dad04341860a79619ef3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Cars/car.fbx using Guid(dc5b9b487dad04341860a79619ef3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d99e9f117720b2417f211c65cb28c') in 0.162483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/t road (4).fbx
+  artifactKey: Guid(4626ddd477338674f8827ec0a675b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/t road (4).fbx using Guid(4626ddd477338674f8827ec0a675b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed75b28923b3eb46eef1a4130b4431da') in 0.043128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/turn 90 (1).fbx
+  artifactKey: Guid(75b4eb0bc757be94bab3788aa125574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/turn 90 (1).fbx using Guid(75b4eb0bc757be94bab3788aa125574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefb544f45504f54062c211d39317482') in 0.037943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car.fbx
+  artifactKey: Guid(7a034881fc08c4e4d8711b9e733dc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car.fbx using Guid(7a034881fc08c4e4d8711b9e733dc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d51fe847168d51ec13e83de3234eea') in 0.135843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Fence.FBX
+  artifactKey: Guid(83c65a85665bb55428c595a770cb1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Fence.FBX using Guid(83c65a85665bb55428c595a770cb1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425167cab3962781a47a1a56d118e24f') in 0.031534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Classic Sedan.fbx
+  artifactKey: Guid(c45498da4e772f94ebf31d3bb5eb7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Classic Sedan.fbx using Guid(c45498da4e772f94ebf31d3bb5eb7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31c58edd1f45a09d949f885a6551c88') in 0.151207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
