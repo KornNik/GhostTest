@@ -85,6 +85,8 @@ namespace Ashsvp
 
         private GearSystem GearSystem;
 
+        private GameObject _skidmark;
+
 
         //Skidmarks
         [HideInInspector]
@@ -95,6 +97,7 @@ namespace Ashsvp
         void Awake()
         {
             GameObject SkidMarkController_Self = Instantiate(SkidMarkController);
+            _skidmark = SkidMarkController_Self;
             SkidMarkController_Self.GetComponent<Skidmarks>().SkidmarkWidth = skidmarkWidth;
 
             CanDrive = true;
@@ -117,6 +120,10 @@ namespace Ashsvp
             rearTrack = Vector3.Distance(Wheels[0].position, Wheels[1].position);
 
             GearSystem = GetComponent<GearSystem>();
+        }
+        private void OnDestroy()
+        {
+            Destroy(_skidmark);
         }
 
 
