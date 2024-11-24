@@ -16,6 +16,7 @@ namespace Behaviours
         public override void EnterState()
         {
             base.EnterState();
+            ClearLevel();
             LoadLevel();
             LoadPlayerCar();
             ChangeGameStateEvent.Trigger(GameStateType.GameState);
@@ -28,10 +29,10 @@ namespace Behaviours
         {
             _carLoader.LoadCar(Services.Instance.Level.ServicesObject.GetPlayerSpawnPlace());
         }
-        protected void ClearLevelOnExit()
+        protected void ClearLevel()
         {
-            _carLoader.ClearCar();
-            _levelLoader.ClearLevelFull();
+            _carLoader.Clear();
+            _levelLoader.Clear();
         }
     }
 }

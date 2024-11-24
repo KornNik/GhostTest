@@ -8,7 +8,7 @@
 
         public override void EnterState()
         {
-            ClearLevelOnExit();
+            ClearLevel();
             ChangeGameStateEvent.Trigger(GameStateType.ManuState);
         }
     }

@@ -8,7 +8,7 @@
 
         public override void EnterState()
         {
-            ClearLevelOnExit();
+            ClearLevel();
             LoadLevel();
             LoadPlayerCar();
             ChangeGameStateEvent.Trigger(GameStateType.GameState);
